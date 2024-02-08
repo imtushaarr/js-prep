@@ -37,3 +37,32 @@ const myFunction = function(){
 console.log(typeof heros);
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+// ********** Memory In JavaScript ***********
+
+// The stack is a region of memory used for static memory allocation and dynamic memory allocation.
+
+// he heap is another region of memory used for dynamic memory allocation.
+
+// Stack (Primitive) and Heap (Non Primitive)
+
+let myYoutubeName = "krafcoding"
+
+let anotherName = myYoutubeName
+anotherName = "Krafcoding Emmet"
+
+console.log(anotherName)
+console.log(myYoutubeName)
+
+let userOne = {
+    email: "tusjar@gmail.com"
+    // upi: "tushar@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "tushar@krafcoding.com"
+
+console.log(userTwo.email)
+console.log(userOne.email)
