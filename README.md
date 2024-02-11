@@ -1,2 +1,3 @@
-# js-prep
-this repo only for y javascript prectice
+# JavaScript Practice Repository
+
+This repository is dedicated to practicing JavaScript.
