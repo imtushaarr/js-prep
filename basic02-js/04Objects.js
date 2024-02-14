@@ -61,7 +61,43 @@ users[1].email
 // console.log(Object.values(krafcodingUser));
 // console.log(Object.entries(krafcodingUser));  
 
-console.log(krafcodingUser.hasOwnProperty('name'));
+// console.log(krafcodingUser.hasOwnProperty('name'));
 
 
+// Destructuring ***********
+
+const course = {
+    coursename: "JS in Hindi",
+    price: "1000",
+    courseInStructor: "Tushar"
+}
+
+// course.courseInStructor  //replace of this method use below method
+
+const {courseInStructor: Instructor, price} = course
+console.log(Instructor, price);
+
+// const navbar = ({company}) => {
+
+// }
+
+// navbar(company = "krafcoding")
+
+
+// JSON Structure ***********
+// {
+//     "name": "Tushar",
+//     "coursename": "js in hindi",
+//     "price": "free"
+// }
+
+// [
+//     {},
+//     {},
+//     {}
+// ]
+
+
+
+ 
 
