@@ -42,3 +42,10 @@ function loginUserMessage(username){
 // console.log(loginUserMessage("Tushar"))
 console.log(loginUserMessage())
 
+
+
+
+
+
+// links : https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions
+
