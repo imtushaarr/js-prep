@@ -39,8 +39,44 @@ function loginUserMessage(username){
     return `${username} Just logged in`
 }
 
-console.log(loginUserMessage("Tushar"))
-console.log(loginUserMessage())
+// console.log(loginUserMessage("Tushar"))
+// console.log(loginUserMessage())
+
+
+
+function calculateCartPrice(val1, val2, ...num1){  // that is called rest operator
+    return num1
+}
+
+// console.log(calculateCartPrice(200,300,400,2000))
+
+const user = {  //object create
+    username: "Tushar",
+    price: 199
+}
+
+function handleObject(anyobject){ //function create
+    console.log(`Username is ${anyobject.username} and price is ${anyobject.price}`)
+}
+
+// handleObject(user)
+handleObject({ //direct object pass
+    username: "Tushar",
+    price: 199
+})
+
+// passing arrays
+
+const myNewArray = [200, 400, 600, 800]
+
+function returnSecondValue(getArray){
+    return getArray[1]
+}
+
+// console.log(returnSecondValue(myNewArray));
+console.log(returnSecondValue([200, 400, 600, 800]));
+
+
 
 
 
