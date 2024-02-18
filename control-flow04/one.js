@@ -69,7 +69,7 @@ const debitCard = true
 const loggedInFromGoogle = false
 const loggedInFromEmail = true
 
-if (userloggedIn && debitCard && 2==2){
+if (userloggedIn && debitCard && 2==2){  // && its means "And"
     console.log(" Allow to buy courses")
 }
 
