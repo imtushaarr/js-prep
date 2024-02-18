@@ -2,4 +2,4 @@
 
 This repository is dedicated to practicing JavaScript.
 
-JavaScript is Single Thread
+JavaScript is Single Thread.
