@@ -12,7 +12,7 @@ Self Practice : Some Self extra additions.
 
 **Contact**
 
-If you have any questions, please contact me at your-tusharguptagps@gmail.com.
+If you have any questions, please contact me at tusharguptagps@gmail.com.
 
 **Acknowledgments**
 
