@@ -20,4 +20,38 @@ myNum.forEach( (num) => {
     }
 })
 
-console.log(newNums);
+// console.log(newNums);
+
+const book = [
+    {
+        title: 'BookOne', genre: 'History', publish: '1998',
+        edition: '2001'
+    },
+    {
+        title: 'BookTwo', genre: 'non-History', publish: '1999',
+        edition: '2002'
+    },
+    {
+        title: 'BookThree', genre: 'science', publish: '1991',
+        edition: '2003'
+    },
+    {
+        title: 'BookFour', genre: 'History', publish: '1993',
+        edition: '2004'
+    },
+    {
+        title: 'BookFive', genre: 'science', publish: '1995',
+        edition: '2005'
+    },
+    {
+        title: 'BookSix', genre: 'History', publish: '1998',
+        edition: '2001'
+    }
+];
+
+// const userBook = book.filter( (bk) => bk.genre === 'science')
+
+const userBook = book.filter( (bk) => {
+     return bk.publish >= 1998 && bk.genre === "History"
+    })
+console.log(userBook);
