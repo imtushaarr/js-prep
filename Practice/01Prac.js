@@ -7,4 +7,7 @@ let val2 =10
 // let result1 = addNum(val1, val2)
 // let result2 = addNum(10,2)
 
-console.log(typeof val1, val2)
+// console.log(typeof val1, val2)
+
+
+
