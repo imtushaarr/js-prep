@@ -15,10 +15,4 @@ Self Practice : Some Self extra additions.
 If you have any questions, please contact me at tusharguptagps@gmail.com.
 
 
-**Acknowledgments**
-
-+ The resources listed in this repository were curated based on recommendations from various online communities and personal research.
-+ The design and layout of this repository was inspired by the Front-End Development repository by Ritik Patni.
-+ The badges used in this repository were created using the Shields.io service.
-
 
