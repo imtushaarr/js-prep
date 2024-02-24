@@ -12,7 +12,9 @@
 </body>
 <script>
     function addLanguage(langName){
-        document.createElement('li')
+        const li = document.createElement('li')
+        li.innerHTML = `${langName}`
+        document.querySelector('.language')
         
     }
 </script>
