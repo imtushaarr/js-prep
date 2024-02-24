@@ -1,7 +1,7 @@
 # Project related to DOM
 
 ## Project link
-[click here](https://stackblitz.com/edit/vitejs-vite-jdop63?file=index.html)
+[Click Here](https://stackblitz.com/edit/vitejs-vite-jdop63?file=index.html)
 
 # Solution code
 
