@@ -27,11 +27,19 @@
     }
     addOptiLanguage('TypeScript')
 
-    // Value Edit
+    // Value Edit/Replace
     const editValue = document.querySelector("li:nth-child(2)")
     // editValue.innerHTML = "Mojo"
     const newli = document.createElement('li')
     newli.textContent = "Mojo"
     editValue.replaceWith(newli)
+
+    // edit/replace
+    const editvaluetwo = document.querySelector("li:first-child")
+    editvaluetwo.outerHTML = '<li>TypeScript</li>'
+
+    // remove
+    const remove = document.querySelector('li:last-child')
+    remove.remove()
 </script>
 </html>
