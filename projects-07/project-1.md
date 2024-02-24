@@ -1,7 +1,7 @@
 # Project related to DOM
 
 ## Project Link
-[Click Here](https://github.com/imtushaarr/js-prep/projects-07/1-colorChanging)
+[Click Here](https://github.com/imtushaarr/js-prep/tree/main/projects-07/1-colorChanging)
 
 # Solution code
 
