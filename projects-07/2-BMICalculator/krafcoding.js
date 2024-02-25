@@ -6,6 +6,7 @@ form.addEventListener('submit', function (e){
    const height  = parseInt( document.querySelector('#height').value);
    const weight  = parseInt( document.querySelector('#weight').value);
    const result  = document.querySelector('#result');
+   const resultTwo = document.querySelector('.resulttwo');
 
 
     if (height === '' || height < 0 || isNaN(height)) {
@@ -15,5 +16,7 @@ form.addEventListener('submit', function (e){
     } else {
        const bmi = (weight / ((height*weight)/10000)).toFixed(3)  //ToFixed use for, when ever getting long no. it help to reduce.
         result.innerHTML = `<span>Your BMI Value is : ${bmi}</span>`
+        resultTwo.innerHTML = `<p>Overweight</p>`;
     }
+
 });
