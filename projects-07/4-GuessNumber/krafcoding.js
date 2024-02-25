@@ -22,10 +22,20 @@ function ckeckGuess(guess){
 
 }
 
-function displayGuess
+function displayGuess{
+
+}
 
 function displayMessage(message){
 
+}
+
+function newGame(){
+    //
+}
+
+function endGame(){
+    //
 }
 
 
