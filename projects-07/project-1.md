@@ -1,7 +1,10 @@
 # Project related to DOM
 
 ## Project Link
-[Click Here](https://github.com/imtushaarr/js-prep/tree/main/projects-07/1-colorChanging)
+[Project 1](https://github.com/imtushaarr/js-prep/tree/main/projects-07/1-colorChanging)
+[Project 2](https://github.com/imtushaarr/js-prep/tree/main/projects-07/2-BMICalculator)
+[Project 3](https://github.com/imtushaarr/js-prep/tree/main/projects-07/3-digitalColor)
+[Project 4](https://github.com/imtushaarr/js-prep/tree/main/projects-07/4-GuessNumber)
 
 # Solution code
 
