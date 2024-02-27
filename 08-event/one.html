@@ -23,9 +23,32 @@
     //     alert("owl image")
     // }
 
+    // attachEvent()
+    // JQuery - onEventLister
+
+    // Type, timestamp, defaultPrevented
+    // target, toElement, srcElement, currentTarget
+    //clicentX, clicentY, screenX, screenY
+    // altkey, ctrkey, shiftKey, keyCode
+
     // new Approach for onclick
     document.getElementById('owl').addEventListener('click', function(){
         alert("owl click again")
-    })    // default false
+    }, false)    // default false
+
+    // false , true :- eventpropogation 
+    
+    document.getElementById('owl').addEventListener('click', function(e){    // event object
+        console.log(e)
+    })
+    
+    // Event Propogation 
+    document.getElementById('images').addEventListener('click', function(e){    // event object
+        console.log("click inside the url")
+    },true)
+
+    document.getElementById('owl').addEventListener('click', function(e){    // event object
+        console.log("owl clicked")
+    },true)
 </script>
 </html>
