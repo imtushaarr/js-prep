@@ -10,9 +10,9 @@
 ## Two Type code written in js 
 Blocking Code and NonBlocking Code
 
-- Blocking Code : 
+# Blocking Code : 
 + read file sync
 
 
-- NonBlocking Code :
+# NonBlocking Code :
 + read file async
