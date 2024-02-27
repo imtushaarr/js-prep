@@ -50,5 +50,10 @@
     document.getElementById('owl').addEventListener('click', function(e){    // event object
         console.log("owl clicked")
     },true)
+
+    document.getElementById('owl').addEventListener('click', function(e){    // event object
+        console.log("owl clicked")
+        e.stopPropagation
+    },false)
 </script>
 </html>
