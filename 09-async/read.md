@@ -18,5 +18,5 @@ Blocking Code and NonBlocking Code
 + read file async
 
 
-![image 1]("img/Screenshot 2024-02-28 at 02.13.14.png")
+<img src="img/Screenshot 2024-02-28 at 02.13.14.png" alt="alternative_text">
 
