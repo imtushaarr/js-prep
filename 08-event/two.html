@@ -7,7 +7,7 @@
 </head>
 <body>
     <h1>Krafcoding</h1>
-    <button id="shop">stop</button>
+    <button id="stop">stop</button>
 </body>
 <script>
     setTimeout(function(){
@@ -15,10 +15,18 @@
     },2000)   // 2000 that is time out in 2sec
 
     setTimeout = function() {
-        console.log("Tushar");
+        // console.log("Tushar");
     }
-    document.querySelector('h1').innerHTML = "best "
 
-    setTimeout(sayTushar, 2000)
+    const changeMe = setTimeout(sayTushar, 2000)
+    document.querySelector("#stop").addEventListener('click', function(){
+        clearTimeout(changeMe);
+        console.log("stop");
+    })
+
+
+    // document.querySelector('h1').innerHTML = "best Js Course"
+
+    
 </script>
 </html>
