@@ -9,9 +9,9 @@
 </br>
 [GuessNumbe](https://github.com/imtushaarr/js-prep/tree/main/projects-07/4-GuessNumber)
 </br>
-[keyboardCheck]([https://github.com/imtushaarr/js-prep/tree/main/projects-07/4-GuessNumber](https://github.com/imtushaarr/js-prep/tree/main/10-eventProject/KeyBoard%20Check))
+[keyboardCheck](https://github.com/imtushaarr/js-prep/tree/main/10-eventProject/KeyBoard%20Check)
 </br>
-[unlimitedColor]([https://github.com/imtushaarr/js-prep/tree/main/projects-07/4-GuessNumber](https://github.com/imtushaarr/js-prep/tree/main/10-eventProject/Unlimited%20Color))
+[unlimitedColor](https://github.com/imtushaarr/js-prep/tree/main/10-eventProject/Unlimited%20Color)
 
 # Solution code
 
