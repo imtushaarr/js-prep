@@ -21,3 +21,12 @@ new Promise(function(resolve, reject){
 }).then(function(){
     console.log("Async 2 resolve");
 })
+
+
+const promiseThree = new Promise(function(resolve, reject){
+    setTimeout(function(){
+
+    },1000)
+})
+
+promiseThree
