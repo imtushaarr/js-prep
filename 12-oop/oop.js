@@ -5,4 +5,12 @@ const user = {
 
 }
 
-console.log(user.username);
+// console.log(user.username);
+
+
+
+// *********Constructor function*********
+
+
+
+// const promise = new Promise()      // new keyword that is called Constructor 
