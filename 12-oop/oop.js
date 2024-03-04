@@ -18,6 +18,10 @@ function User(username, logincount, isLoggedIn){
     this.logInCount = logincount
     this.isLoggedIn = isLoggedIn
 
+    this.gretting = function(){
+        console.log(`welcome ${this.username}`);
+    }
+
     return this
 }
 
